@@ -20,5 +20,3 @@ const nav = (() => {
     headerSection.appendChild(header);
     contentContainer.appendChild(headerSection);
 })();
-
-export {nav};
