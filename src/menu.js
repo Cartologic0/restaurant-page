@@ -3,10 +3,10 @@ const menuPage = (() => {
     const menuSection = document.createElement("section");
     menuSection.setAttribute("id", "menu");
     menuSection.innerHTML = `
-    <h1 id="menu-heading">Our Pizzas <span><img src="pizza.svg" alt=""></span></h1>
+    <h1 id="menu-heading">Our Pizzas <span><img src="./assets/pizza.svg" alt=""></span></h1>
     <div class="menu-container">
         <div class="pizza" id="siciliana">
-            <img src="siciliana.png" alt="">
+            <img src="./assets/siciliana.png" alt="">
             <div>
                 <h2>Siciliana</h2>
                 <p>Tomato sauce, Anchovies, Onions, Oregano, Sheep's milk cheese, Breadcrumbs</p>
@@ -14,7 +14,7 @@ const menuPage = (() => {
             </div>
         </div>
         <div class="pizza" id="margherita">
-            <img src="margherita.png" alt="">
+            <img src="./assets/margherita.png" alt="">
             <div>
                 <h2>Margherita</h2>
                 <p>Tomato sauce, White Mozzarella, Fresh green basil</p>
@@ -22,7 +22,7 @@ const menuPage = (() => {
             </div>
         </div>
         <div class="pizza" id="neopolitan">
-            <img src="neapolitan.png" alt="">
+            <img src="./assets/neapolitan.png" alt="">
             <div>
                 <h2>Neapolitan</h2>
                 <p>Basic dough, Raw tomatoes, Fresh Mozzarella cheese, Fresh basil, Olive Oil</p>
@@ -30,7 +30,7 @@ const menuPage = (() => {
             </div>
         </div>
         <div class="pizza" id="capricciosa">
-            <img src="capricciosa.png" alt="">
+            <img src="./assets/capricciosa.png" alt="">
             <div>
                 <h2>Capricciosa</h2>
                 <p>Mozzarella cheese, Italian baked ham, Mushroom, Artichoke, Tomatoes</p>
@@ -38,7 +38,7 @@ const menuPage = (() => {
             </div>
         </div>
         <div class="pizza" id="parmigiana">
-            <img src="parmigiana.png" alt="">
+            <img src="./assets/parmigiana.png" alt="">
             <div>
                 <h2>Parmigiana</h2>
                 <p>Ricotta cheese, Mozzarella, Parmesan, Tomato sauce, Meatballs, Oregano, Vegetable shorting</p>
@@ -46,7 +46,7 @@ const menuPage = (() => {
             </div>
         </div>
         <div class="pizza" id="al-taglio">
-            <img src="al-taglio.png" alt="">
+            <img src="./assets/al-taglio.png" alt="">
             <div>
                 <h2>Al taglio</h2>
                 <p>Tomato sauce, Mozzarella, Chicken breast, Mushroom, Oregano, Basil</p>

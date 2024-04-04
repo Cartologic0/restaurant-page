@@ -35,19 +35,19 @@ const contactPage = (() => {
         <div class="contact-div">
             <h1>Contact us</h1>
             <div class="address">
-                <img id="icon" src="location_on.svg" alt="">
+                <img id="icon" src="./assets/location_on.svg" alt="">
                 <p><strong>Address:</strong> 838 W 6Th St Los Angeles CA 90017.</p>
             </div>
             <div class="phone">
-                <img id="icon" src="phone.svg" alt="">
+                <img id="icon" src="./assets/phone.svg" alt="">
                 <p><strong>Phone:</strong> + 1512 7882 029</p>
             </div>
             <div class="email">
-                <img id="icon" src="at.svg" alt="">
+                <img id="icon" src="./assets/at.svg" alt="">
                 <p><strong>Email:</strong> info@javys.com</p>
             </div>
             <div class="email">
-                <img id="icon" src="alarm_on.svg" alt="">
+                <img id="icon" src="./assets/alarm_on.svg" alt="">
                 <p><strong>Start:</strong> Mon-Thurs:10am-23pm
                 </br>Fri-Sun:9am-1am</p>
             </div>
